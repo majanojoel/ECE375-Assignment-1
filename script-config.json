@@ -1,0 +1,12 @@
+{
+    "clang-plugins": {
+      "global_variable": "",
+      "library_catch": [
+        "unordered_map"
+      ]
+    },
+    "static-checks": {
+      "address-sanitizer": "",
+      "scan-build": ""
+    }
+  }
