@@ -43,23 +43,23 @@ void wut_init() {
 }
 
 int wut_id() {
-    return 1; //set to 0 for demo
+    return 0; //set to 0 for demo
 }
 
 int wut_create(void (*run)(void)) {
-    return 0; //set to 1 for demo
+    return 1; //set to 1 for demo
 }
 
 int wut_cancel(int id) {
-    return 0; //set to -1 for demo
+    return -1; //set to -1 for demo
 }
 
 int wut_join(int id) {
-    return 0; //set to -1 for demo
+    return -1; //set to -1 for demo
 }
 
 int wut_yield() {
-    return 0; //set to -1 for demo
+    return -1; //set to -1 for demo
 }
 
 void wut_exit(int status) {
